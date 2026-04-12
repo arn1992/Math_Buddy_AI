@@ -1,0 +1,13 @@
+name: deep_hpe
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.8 # Updated to specific version 3.12.8
+  - crewai=0.126.0
+  - python-dotenv=1.0.1
+  - pydantic=2.10.4
+  - httpx=0.28.1
+  - faster-whisper=1.1.1
+  - edge-tts=7.0.2
+  - pyaudio=0.2.14
