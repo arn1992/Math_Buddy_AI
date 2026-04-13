@@ -15,7 +15,7 @@ from google.cloud import speech # The main client library for Speech-to-Text
 # IMPORTANT: Replace with your actual Google Cloud API Key
 # For client libraries, it's often better to authenticate via environment variables
 # or service accounts. For simplicity and direct control for this console app, we'll keep it here.
-GOOGLE_API_KEY = "AIzaSyCsrPAIytMCgeO6pxLNEqLOqQg5dpfPp5E"
+GOOGLE_API_KEY = ""
 
 # Google Cloud Text-to-Speech API endpoint (still using for httpx)
 TTS_API_URL = f"https://texttospeech.googleapis.com/v1/text:synthesize?key={GOOGLE_API_KEY}"
